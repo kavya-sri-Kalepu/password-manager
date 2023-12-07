@@ -1,0 +1,129 @@
+.main-container-body {
+  background: #9ba9eb;
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px;
+}
+.main-container {
+  width: 85%;
+  margin: 0 auto;
+}
+.main-container-top-logo img {
+  height: 70px;
+  width: 250px;
+}
+.main-container-input-section {
+  background-color: #5763a5;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+.container-left {
+  width: 50%;
+}
+.container-right {
+  width: 50%;
+}
+.container-right img {
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+}
+.container-left-form-main-sec {
+  background-color: #454f84;
+  border-radius: 10px;
+  padding: 40px;
+}
+.container-left-form-main-sec h1 {
+  font-size: 26px;
+  color: #fff;
+  font-weight: 500;
+}
+.form-input {
+  display: flex;
+  align-items: center;
+  margin: 15px 0px;
+  background-color: #f8fafc;
+  border-radius: 5px;
+}
+.form-input img {
+  width: 50px;
+  padding: 10px;
+  border-right: 1px solid #94a3b8;
+}
+.form-input input {
+  border: none;
+  padding: 10px 30px;
+  background: transparent;
+}
+.form-input input::placeholder {
+  color: #b6c3ca;
+  font-size: 18px;
+  font-weight: bold;
+}
+.submit-btn input {
+  background-color: #0b69ff;
+  border: none;
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+.submit-btn {
+  text-align: right;
+}
+input:focus {
+  border: none;
+  outline: none;
+  font-size: 18px;
+  color: #94a3b8;
+}
+
+/***** bottom section ****/
+.pt {
+  padding-top: 30px;
+  flex-direction: column;
+}
+.bottom-top-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.bottom-top-header-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottom-top-header-left h3 {
+  color: #fff;
+  margin-right: 15px;
+}
+.bottom-top-header-left span {
+  padding: 7px 10px;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 50%;
+}
+hr {
+  width: 100%;
+  height: 1px;
+  color: rgba(255, 255, 255, 0.725);
+}
+.show-password-section {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.show-password-section h3 {
+  color: #fff;
+  margin-left: 10px;
+}
+input[type='checkbox'] {
+  width: 20px;
+}
+.no-password {
+  height: 350px;
+}
